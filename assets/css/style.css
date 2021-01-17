@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+
+body {
+  background-color: #F7F8FA;
+}
+
+.my-header {
+  border-bottom: 1px solid #E2E9F3;
+  margin-bottom: 15px;
+}
+
+.avatar {
+  max-width: 40px;
+  border-radius: 50%;
+  margin-top: 5px;
+  float: right;
+  border: solid 2px #E2E9F3;
+}
+.my-name {
+  border: solid 1px #000;
+  font-size: 14px;
+  padding: 13px;
+  background: white;
+  box-shadow: 3px 3px 0 1px #E2E9F3;
+  margin-right: 30px;
+}
+
+.flex-wrap {
+  display: flex;
+}
+@media (min-width: 1024px) {
+  .flex-item {
+    flex: 1;
+  }
+}
+
+
+@media (min-width: 400px) {
+
+  .social-icon ul {
+    padding: 0;
+  }
+  .my-name, .social-icon {
+    float: none;
+  }
+}
+
+.flex-item {
+  background: #fff;
+}
+
+.my-card {
+  position: relative;
+  padding-bottom: 8rem;
+}
+
+/* mofx */
+.mofx-card, .mofx-card:hover {
+  background: #202121;
+  color: #ffffff;
+}
+
+.mofx-card h2, .mofx-card:hover h2, .mofx-card h3, .mofx-card:hover h3 {
+  color: #39B54A;
+}
+
+.mofx-card .btn, .mofx-card .btn {
+  background: transparent;
+  color: #39B54A;
+  border-color: #39B54A;
+}
+
+.mofx-card:hover:hover > .btn {
+  background: #39B54A;
+  color: #ffffff;
+  border-color: #39B54A;
+}
+
+/* books */
+.books-card, .books-card:hover {
+  background: #08152a;
+  color: #ffffff;
+}
+
+.books-card h2, .books-card:hover h2, .books-card h3, .books-card:hover h3 {
+  color: #E0B332;
+}
+
+.books-card .btn, .books-card .btn {
+  background: transparent;
+  color: #E0B332;
+  border-color: #E0B332;
+}
+
+.books-card:hover:hover > .btn {
+  background: #E0B332;
+  color: #08152a;
+  border-color: #E0B332;
+}
+
+/* end mofx and books */
+
+.my-card h2, .my-card p {
+  font-family: 'Nunito', sans-serif;
+}
+
+.my-card p {
+  letter-spacing: .2px;
+  line-height: calc(34/20);
+}
+
+.my-card h2 {
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+}
+
+.my-card h3 {
+  font-size: 26px;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+}
+
+.my-name, .social-icon {
+  float: left;
+}
+
+.my-name, .my-card h3, .my-card .my-button {
+  font-family: 'Roboto', sans-serif;
+}
+
+.my-card, .my-card:hover {
+  text-decoration: none;
+}
+
+.my-card .my-button {
+  position: absolute;
+  bottom: 3rem;
+  right: 3rem;
+  text-transform: uppercase;
+  border-radius: 60px;
+  padding: 15px 30px;
+}
+
+.my-card .my-button:after{
+   content: '\f35a';
+   font-family: FontAwesome;
+   font-weight: normal;
+   font-style: normal;
+   margin:0px 0px 0px 10px;
+   text-decoration:none;
+
+}
+
+
+.header-social {
+    margin-top: 20px;
+}
+
+.social-icon ul {
+  padding: 7px 0 0;
+  margin: 0;
+}
+
+    .header-social a i.fa {
+        color: #aaaaaa;
+    }
+
+
+    .header-social ul li {
+        margin: 0 15px 0 0;
+        padding: 0;
+        display: inline-block;
+        text-align: -webkit-match-parent;
+    }
+
+    .header-social .social-icon i.fa,
+    .header-social .modal-button-icon i.fa {
+        width: 32px;
+        height: 32px;
+    }
+
+        .header-social .social-icon i.fa::before {
+            font-size: 14px;
+            line-height: 24px;
+        }
+
+    .header-social .social-icon i.fa {
+        background: transparent;
+        color: #202121;
+        border: solid 1px #202121;
+        display: inline-block;
+        cursor: pointer;
+        margin: 0;
+        padding: 3px 0;
+        text-align: center;
+        position: relative;
+        z-index: 1;
+        overflow: hidden;
+        border-radius: 50%;
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        transition: all 0.5s;
+        -webkit-transform: translateZ(0);
+    }
