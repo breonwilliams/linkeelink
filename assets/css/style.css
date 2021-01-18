@@ -56,6 +56,18 @@ body {
   padding-bottom: 8rem;
 }
 
+.card-subheading small {
+  font-size: 10px;
+}
+
+.card-logo {
+  max-width: 40px;
+  border-radius: 50%;
+  position: absolute;
+  right: 30px;
+  top: 30px;
+}
+
 /* mofx */
 .mofx-card, .mofx-card:hover {
   background: #202121;

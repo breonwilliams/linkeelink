@@ -41,13 +41,15 @@
         </header>
 
         <div class="row flex-wrap">
-          <a href="https://mindoverfx.com" target="_blank" class="flex-item m-3 pt-5 pr-5 pl-5 rounded hvr-grow-shadow my-card mofx-card">
-            <h2 class="card-subheading">Mind Over FX</h2>
+          <a href="#" target="_blank" class="flex-item m-3 pt-5 pr-5 pl-5 rounded hvr-buzz-out my-card mofx-card">
+						<img class="card-logo" src="<?php echo plugin_dir_url( dirname( __FILE__ ) ) . 'assets/images/mofx_logo.svg'; ?>">
+            <h2 class="card-subheading">Mind Over FX <small>coming soon</small></h2>
             <h3 class="card-heading">Learn how I trade the forex market for FREE!</h3>
             <p>I created Mind Over FX to insure anyone can identify quality trade setups using simple chart patterns. This online course is made for beginners to teach them all the key terms you’ll need to know and help you learn simple trading strategies that can be applied to any market.</p>
             <span class="btn btn-primary my-button">Get The Free Course</span>
           </a>
-          <a href="https://author.breonwilliams.com" target="_blank" class="flex-item m-3 pt-5 pr-5 pl-5 rounded hvr-grow-shadow my-card books-card">
+          <a href="https://author.breonwilliams.com" target="_blank" class="flex-item m-3 pt-5 pr-5 pl-5 rounded hvr-buzz-out my-card books-card">
+						<img class="card-logo" src="<?php echo plugin_dir_url( dirname( __FILE__ ) ) . 'assets/images/how_to_speak_money.svg'; ?>">
             <h2 class="card-subheading">My children's books</h2>
             <h3 class="card-heading">“How To Speak Money” makes learning finance simple using fun rhymes and entertaining illustrations</h3>
             <p>I set out to write children’s books that help parents understand it’s never too early to begin teaching their children valuable life skills they will use throughout their lifetime.</p>
