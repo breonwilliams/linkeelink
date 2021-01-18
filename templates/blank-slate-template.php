@@ -41,7 +41,7 @@
         </header>
 
         <div class="row flex-wrap">
-          <a href="#" target="_blank" class="flex-item m-3 pt-5 pr-5 pl-5 rounded hvr-buzz-out my-card mofx-card">
+          <a href="#" class="flex-item m-3 pt-5 pr-5 pl-5 rounded hvr-buzz-out my-card mofx-card">
 						<img class="card-logo" src="<?php echo plugin_dir_url( dirname( __FILE__ ) ) . 'assets/images/mofx_logo.svg'; ?>">
             <h2 class="card-subheading">Mind Over FX <small>coming soon</small></h2>
             <h3 class="card-heading">Learn how I trade the forex market for FREE!</h3>
