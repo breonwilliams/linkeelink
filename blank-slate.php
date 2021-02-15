@@ -8,6 +8,7 @@ Author: Breon Williams
 Author URI: http://breonwilliams.com
 License: GPL2
 */
+$linkeelink_blocks_path = dirname(__FILE__);
 
 function wpse_load_plugin_css() {
     $plugin_url = plugin_dir_url( __FILE__ );
@@ -24,3 +25,7 @@ add_action( 'wp_enqueue_scripts', 'wpse_load_plugin_css' );
 require __DIR__ . '/functions.php';
 
 add_action( 'plugins_loaded', 'blank_slate_bootstrap' );
+
+
+include($linkeelink_blocks_path.'/resources/blocks/block-custom-cards.php');
+include($linkeelink_blocks_path.'/resources/custom_fields/fields.php');
