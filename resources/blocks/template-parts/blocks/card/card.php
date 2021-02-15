@@ -22,7 +22,7 @@ if( !empty($block['anchor']) ) {
     $button_text_hover_color = get_sub_field('button_text_hover_color');
     $card_url = get_sub_field('card_url');
         ?>
-        <a href="<?php echo $card_url; ?>" id="<?php echo esc_attr($id); ?>" class="flex-item m-3 pt-5 pr-5 pl-5 rounded hvr-buzz-out my-card mofx-card">
+        <a href="<?php echo $card_url; ?>" id="<?php echo esc_attr($id); ?>" target="_blank" class="flex-item m-3 pt-5 pr-5 pl-5 rounded hvr-buzz-out my-card mofx-card">
 
           <?php
           $image = get_sub_field('card_thumbnail');
